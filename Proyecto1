@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char nombre [20];
+    int edad;
+    printf("Introduzca usted su nombre: ");
+    scanf("%s",&nombre);
+
+    printf("Introduzca usted su edad: ");
+    scanf("%d",&edad);
+
+    printf("Buenos dias %s, tiene usted %d anos.", nombre, edad);
+
+    return 0;
+}
