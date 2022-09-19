@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    char nombre [20];
+    char apellido [20];
+    int edad;
+    int jubilar;
+    printf("Introduzca usted su nombre: ");
+    scanf("%s",&nombre);
+
+    printf("Introduzca usted su apellido: ");
+    scanf("%s",&apellido);
+
+    printf("Introduzca usted su edad: ");
+    scanf("%d",&edad);
+
+    jubilar = 67 - edad;
+    printf("Sr./Sra. %s %s, le faltan aun %d anos para jubilarse.", nombre, apellido, jubilar);
+
+    return 0;
+}
